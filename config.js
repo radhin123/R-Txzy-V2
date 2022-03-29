@@ -44,7 +44,7 @@ global.APIKeys = { // APIKey nya disini
 global.packname = 'Exc'
 global.author = 'NyyXz'
 
-global.wait = '「 ⏱️ 」Harap tunggu...'
+global.wait = '「 ⏱️ 」Harap tunggu'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '© Leviathan' //change the watermark 
