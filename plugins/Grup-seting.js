@@ -1,8 +1,8 @@
 let { GroupSettingChange } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 	let isClose = {
-		'open': false,
-		'buka': false,
+		'open': true,
+		'buka': true,
 		'on': false,
 		'1': false,
 		'close': true,
