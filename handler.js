@@ -98,7 +98,7 @@ module.exports = {
           if (!isNumber(chat.expired)) chat.expired = 0
           if (!('stiker' in chat)) chat.stiker = false
           if (!('viewonce' in chat)) chat.viewonce = true
-          if (!('nsfw' in chat)) chat.nsfw = false
+          if (!('nsfw' in chat)) chat.nsfw = true
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: true,
@@ -142,7 +142,7 @@ module.exports = {
           antispam: true,
           antitroli: true,
           group: false,
-          jadibot: false,
+          jadibot: true,
           private: false,
           restrict: false,
           self: false,
