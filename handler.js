@@ -89,7 +89,7 @@ module.exports = {
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('antiLink' in chat)) chat.antiLink = true
-          if (!('autoread' in chat)) chat.autoread = false
+          if (!('autoread' in chat)) chat.autoread = true
           if (!('broadcast' in chat)) chat.broadcast = true
           if (!('badword' in chat)) chat.badword = false
           if (!('delete' in chat)) chat.delete = true
@@ -411,9 +411,9 @@ module.exports = {
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
-                  mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
+                  mediaUrl: 'https://radhin123.github.io',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: 'Damar & Leviathan',
                   thumbnail: poi
                 }
               }}) 
@@ -485,7 +485,7 @@ global.dfail = (type, m, conn) => {
     private: 'This command only can used in Private Chat.\nPerintah ini hanya dapat digunakan di Chat Pribadi.',
     admin: 'This command only can used by *Group Admin.*\nPerintah ini hanya dapat digunakan oleh *Admin Group.*',
     botAdmin: 'Make the bot number as a group admin to use this command.\nJadikan bot sebagai admin untuk menggunakan perintah ini.',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar R-Txzy.19*',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Damar.19*',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
   if (msg) return m.reply(msg)
