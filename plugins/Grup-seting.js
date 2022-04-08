@@ -24,5 +24,5 @@ handler.help = ['grup <buka/tutup>']
 handler.tags = ['group']
 handler.command = /^(gro?up)$/i
 handler.admin = true
-handler.botAdmin = true
+handler.botAdmin = false
 module.exports = handler
